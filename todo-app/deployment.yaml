@@ -19,6 +19,6 @@ spec:
         - name: ghcr-secret
       containers:
         - name: todo-app
-          image: ghcr.io/m1key0m/kubernetes-cicd-tutorial/todo-app:4c4c8bd45d492bfd75a2d5deaf5ed39981552370
+          image: ghcr.io/m1key0m/kubernetes-cicd-tutorial/todo-app:576e3dd533f7a8af470b0a0a415122cbfd1d4a34
           ports:
             - containerPort: 5000
