@@ -19,6 +19,6 @@ spec:
         - name: ghcr-secret
       containers:
         - name: flask-app
-          image: ghcr.io/m1key0m/kubernetes-cicd-tutorial/flask-app:78d93cabde00a0265bece037156ba26098538b2d
+          image: ghcr.io/m1key0m/kubernetes-cicd-tutorial/flask-app:8a2694fd33e75d14269df1f900bf8407cfafa6b3
           ports:
             - containerPort: 5070
